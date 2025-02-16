@@ -1,7 +1,7 @@
 import winim/lean # Make sure Winim is installed ('nimble install winim')
 
 # Note that we don't need any P/Invoke for Nim (compared to C#)
-# This is because Winim takes care of all that for us
+# This is because Winim takes care of all that for uss
 
 # Define a function to inject (helps with automatic cleanup)
 proc injectLocal[I, T](shellcode: var array[I, T]): void =
